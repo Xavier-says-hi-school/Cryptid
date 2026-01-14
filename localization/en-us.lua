@@ -2497,7 +2497,7 @@ return {
 				},
 			},
 			j_cry_penetrating = {
-				name = "Penetrating Joker",
+				name = Cryptid_config.family_mode and "Nonsense Joker" or "Penetrating Joker",
 				text = {
 					"{C:chips}+#1#{} Chips if played",
 					"hand contains",
